@@ -1,0 +1,17 @@
+.card-footer {
+    padding: 0;
+    background: #fff;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-footer button {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.card-img-top {
+    height:250px;
+}

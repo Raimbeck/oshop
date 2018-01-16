@@ -1,0 +1,18 @@
+<table class="table" *ngIf="orders">
+  <thead>
+    <tr>
+      <th>Customer</th>
+      <th>Date</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let order of orders">
+      <td>{{ order.shipping.name }}</td>
+      <td>{{ order.datePlaced | date}}</td>
+      <td>
+        <a routerLink="/">View</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
